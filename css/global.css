@@ -1,0 +1,29 @@
+/*
+    Estilos Globales
+
+    Aquí vamos a definir estilos y variables que es reutilicen en todo el sitio.
+
+*/
+
+:root {
+
+    --primary-color: #585341;
+    --secondary-color: #BEB9A7;
+    --dark-color: #19191A;
+    --light-color: #E5E5E6;
+
+    --title-font: 'Roboto', sans-serif;
+    --body-font: 'Funnel Sans', sans-serif;
+
+}
+
+body {
+    background-color: var(--light-color);
+    font-family: var(--body-font);
+    color: var(--dark-color);
+}
+
+h1, h2, h3, h4, h5, h6 {
+    font-family: var(--title-font);
+    color: var(--dark-color);
+}
