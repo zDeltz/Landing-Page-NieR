@@ -13,7 +13,11 @@
     --light-color: #E5E5E6;
 
     --title-font: 'Roboto', sans-serif;
-    --body-font: 'Funnel Sans', sans-serif;
+    --body-font: 'Funnel Display', sans-serif;
+
+    --space-small: 16px;
+    --space-normal: 24px;
+    --space-medium: 32px;
 
 }
 
@@ -26,4 +30,26 @@ body {
 h1, h2, h3, h4, h5, h6 {
     font-family: var(--title-font);
     color: var(--dark-color);
+}
+
+/* Buttons */
+
+.button-primary {
+    display: flex;
+    align-items: center;
+    gap: var(--space-small);
+    padding: var(--space-small) var(--space-normal);
+    background-color: var(--secondary-color);
+    color: var(--dark-color);
+    border-radius: 32px;
+    font-family: var(--title-font);
+    text-transform: uppercase;
+    font-size: 1.125rem;
+    transition: background-color 0.3s ease;
+    transition: color 0.3s ease;
+}
+
+.button-primary:hover {
+    color: var(--light-color);
+    background-color: var(--primary-color);
 }

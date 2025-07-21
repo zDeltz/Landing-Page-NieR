@@ -3,4 +3,33 @@
 
     Aquí vamos a estilizar todas las secciones, sus contenidos y el responsivo.
 
-*/
+*/  
+
+/* Header */
+
+.header {
+    position: fixed;
+    width: 100%;
+    top: 0;
+    z-index: 100;
+}
+
+.navbar {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 24px;
+}
+
+.navbar-menu {
+    display: flex;
+    gap: var(--space-medium)
+}
+
+.navbar-menu a{
+    font-family: var(--title-font);
+}
+
+.navbar-menu a:hover {
+    color: var(--secondary-color);
+}
