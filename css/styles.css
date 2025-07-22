@@ -33,3 +33,40 @@
 .navbar-menu a:hover {
     color: var(--secondary-color);
 }
+
+
+/* Hero */
+
+.hero {
+    height: 100vh;
+    min-height: 700px;
+    background-image: url('../assets/hero-background.jpg');
+    background-size: cover;
+    background-position: center;
+    color: var(--light-color);
+
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+}
+
+.hero-content {
+    width: 50%;
+}
+
+.hero-content p {
+    font-size: 1.125rem;;
+    margin-bottom: var(--space-medium);
+    max-width: 80%;
+}
+
+.hero-actions {
+    display: flex;
+    gap: var(--space-small);
+    margin-bottom: var(--space-medium);
+}
+
+.hero-icons {
+    display: flex;
+    gap: var(--space-small);
+}
