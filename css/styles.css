@@ -21,6 +21,12 @@
     padding: 24px;
 }
 
+.navbar-brand {
+    max-width: 50px;
+    border-radius: 25%;
+    overflow: hidden;
+}
+
 .navbar-menu {
     display: flex;
     gap: var(--space-medium)
@@ -69,4 +75,52 @@
 .hero-icons {
     display: flex;
     gap: var(--space-small);
+}
+
+/* Characters */
+
+.characters {
+    background-color: var(--light-color);
+}
+
+.characters-header {
+    margin-bottom: 1rem;
+}
+
+.characters-content {
+    display: flex;
+    align-items: center;
+}
+
+.characters-thumbnails {
+    width: 50%;
+}
+.thumbnail-item {
+    border-radius: 1rem;
+    overflow: hidden;
+    cursor: pointer;
+    filter: brightness(0.6);
+    transition: filter 0.3s ease;
+}
+
+.thumbnail-item:hover {
+    filter: brightness(1);  
+}
+
+.characters-showcase {
+    width: 50%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: var(--space-medium);
+}
+
+.character-info {
+    text-align: center;
+}
+
+.thumbnails-list {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: var(--space-medium);
 }

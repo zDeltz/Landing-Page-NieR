@@ -30,6 +30,17 @@ body {
 h1, h2, h3, h4, h5, h6 {
     font-family: var(--title-font);
     color: var(--dark-color);
+    text-transform: uppercase;
+}
+
+h2 {
+    font-size: 2rem;
+    margin-bottom: 1rem;
+}
+
+h3 {
+    font-size: 1.75rem;
+    margin-bottom: 0.8rem;
 }
 
 /* Buttons */
@@ -72,4 +83,11 @@ h1, h2, h3, h4, h5, h6 {
 .button-secondary:hover {
     color: var(--dark-color);
     background-color: var(--light-color);
+}
+
+/* Wrapper */
+
+.wrapper {
+    max-width: 1200px;
+    margin: 0 auto;
 }
