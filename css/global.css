@@ -45,6 +45,10 @@ h3 {
 
 /* Buttons */
 
+button {
+    cursor: pointer;
+}
+
 .button-primary {
     display: flex;
     align-items: center;
