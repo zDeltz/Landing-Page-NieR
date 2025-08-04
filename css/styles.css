@@ -197,3 +197,12 @@
 .carousel-controls span {
     font-size: 3rem;
 }
+
+/* About */
+
+.about {
+    background-image: url(../assets/about-background.png);
+    background: linear-gradient(90deg,rgba(190, 185, 167, 1) 0%, rgba(88, 83, 65, 1) 100%);
+    background-size: cover;
+    background-position: center;
+}
