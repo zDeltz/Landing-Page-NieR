@@ -20,7 +20,18 @@
     --space-small: 16px;
     --space-normal: 24px;
     --space-medium: 32px;
+    --space-large: 48px;
+    --space-xl: 56px;
+    --space-2xl: 64px;
 
+    /* Height for Scroll Offset */
+
+    --offset-height: 124px;
+
+}
+
+html {
+    scroll-behavior: smooth;
 }
 
 body {
@@ -52,7 +63,8 @@ button {
 }
 
 section {
-    margin-bottom: var(--space-medium);
+    scroll-margin-top: var(--offset-height);
+    margin-bottom: var(--space-2xl);
 }
 
 .button-primary {
