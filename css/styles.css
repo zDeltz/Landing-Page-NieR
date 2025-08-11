@@ -25,7 +25,7 @@
 
 .navbar-brand {
     max-width: 50px;
-    border-radius: 25%;
+    border-radius: 20%;
     overflow: hidden;
 }
 
@@ -202,7 +202,54 @@
 
 .about {
     background-image: url(../assets/about-background.png);
-    background: linear-gradient(90deg,rgba(190, 185, 167, 1) 0%, rgba(88, 83, 65, 1) 100%);
     background-size: cover;
     background-position: center;
+    background: #BEB9A7;
+
+}
+
+.about {
+    background: 
+    
+        linear-gradient(90deg,rgba(190, 185, 167, 0.5) 0%, rgba(88, 83, 65, 0.5) 100%) , 
+        url("../assets/about-background.png");
+    ;
+}
+
+.about > div {
+    display: flex;
+    padding: var(--space-medium);
+    justify-content: space-between;
+}
+
+.about-image,
+.about-content {
+    width: 50%;
+    height: 303px;
+}
+
+.about-images {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.about-images img {
+    width: 182;
+    max-width: 182px;
+    min-width: 200px;
+    border-radius: var(--space-medium);
+    overflow: hidden;
+    justify-content: center;
+    
+}
+
+.about-content h2,
+.about-content p {
+    color: var(--light-color);
+}
+.about-content {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
 }
